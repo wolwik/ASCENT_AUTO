@@ -7,10 +7,6 @@ import FixedMenu from "./sections/FixedMenu";
 import "./globals.css";
 
 export default function App() {
-  return <FixedMenu />;
-
-  {
-    /*
   return (
     <>
       <HeroSection />
@@ -20,6 +16,5 @@ export default function App() {
       <ContactSection />
     </>
   );
-  */
-  }
 }
+
