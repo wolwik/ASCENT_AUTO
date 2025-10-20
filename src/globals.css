@@ -1,0 +1,20 @@
+:root {
+  --blue: #95d3f8;
+  --beige: #ffe5bc;
+  --alkalami: "Alkalami", serif;
+  --alata: "Alata", sans-serif;
+}
+
+h1 {
+  font-family: var(--alkalami);
+}
+
+h3,
+h2,
+h4 {
+  font-family: var(--alkalami);
+}
+
+p {
+  font-family: var(--alata);
+}
