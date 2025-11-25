@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Alkalami&display=swap");
+
+:root {
+  --blue: #95d3f8;
+  --beige: #ffe5bc;
+  --alkalami: "Alkalami", serif;
+  --alata: "Alata", sans-serif;
+}
+
+html {
+  font-family: "Alata", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*
+.btnXs {
+  @apply bg-black hover:bg-gray-800 rounded-3xl text-white text-xs font-normal w-24 py-3;
+}
+
+
+.btnXs {
+  @apply rounded-3xl text-white text-xs font-normal w-24 py-3 bg-gradient-to-b from-[#494949] to-[#000000]
+    border-none 
+    shadow-[0_5px_15px_rgba(0,0,0,0.2)] 
+    transition-all duration-300 ease-in-out 
+    hover:from-[#747474] hover:to-[#181818] 
+    hover:-translate-y-[2px];
+}
+    */
+
+/* plaski ale z podniesieniem*/
+.btnXsDetails {
+  @apply bg-black hover:bg-gray-700 rounded-3xl text-white text-xs font-normal w-24 py-3 hover:-translate-y-[2px] transition-all duration-300 ease-in-out;
+}
+
+/*
+.btnXsGray {
+  @apply bg-gray-600 hover:bg-gray-500 rounded-3xl text-white text-xs font-normal w-24 py-3 hover:-translate-y-[2px] transition-all duration-300 ease-in-out;
+}
+*/
+.btnXsReserve {
+  @apply bg-green-700 hover:bg-green-800 rounded-3xl text-white text-xs font-normal w-24 py-3 hover:-translate-y-[2px] transition-all duration-300 ease-in-out;
+}
+
+/*
+
+.btnXsGray {
+  @apply rounded-3xl text-white text-xs font-normal w-24 py-3 bg-gradient-to-b from-[#7c8897] to-[#4B5563]
+    border-none 
+    shadow-[0_5px_15px_rgba(0,0,0,0.2)] 
+    transition-all duration-300 ease-in-out 
+    hover:from-[#929cab] hover:to-[#6a7585] 
+    hover:-translate-y-[2px];
+}
+
+*/
+
+.btnSmBack {
+  @apply bg-gray-800 hover:bg-gray-700 rounded-3xl text-white text-sm w-32 p-4 hover:-translate-y-[2px] transition-all duration-300 ease-in-out;
+}
+
+.btnSmDefault {
+  @apply bg-black hover:bg-gray-800 rounded-3xl text-white text-sm w-32 p-4 hover:-translate-y-[2px] transition-all duration-300 ease-in-out;
+}
+
+.btnSmReserve {
+  @apply bg-green-900 hover:bg-green-800 rounded-3xl text-white text-sm w-32 p-4 hover:-translate-y-[2px] transition-all duration-300 ease-in-out;
+}
+
+.btnOutline {
+  @apply outline outline-2 outline-white rounded-3xl text-white text-sm w-32 p-4;
+}
+
+.formInput {
+  @apply bg-gray-300 rounded-3xl py-2 px-3 sm:w-[80%] md:w-[250px];
+}
+
+.errorMsg {
+  @apply text-red-500 text-sm pl-4 -my-2;
+}
+
+.errorMsgXs {
+  @apply text-red-500 text-xs pl-4;
+}
+
+/*
+h1 {
+  font-family: var(--alkalami);
+}
+
+h2,
+h3,
+h4 {
+  font-family: var(--alkalami);
+}
+
+p {
+  font-family: var(--alata);
+}
+*/
