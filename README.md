@@ -2,10 +2,6 @@
 
 **Ascent Auto** is a personal project that allows users to browse car listings, read short articles about each car, and submit reservation requests through a booking form.
 
-## Status
-
-The project is currently completed, but additional features are planned.
-
 ## Technologies Used
 
 - React
