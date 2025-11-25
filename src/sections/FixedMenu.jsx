@@ -1,5 +1,4 @@
 import { useState, useEffect, useRef } from "react";
-import { Link } from "react-router";
 
 export default function FixedMenu() {
   const [open, setOpen] = useState(false);

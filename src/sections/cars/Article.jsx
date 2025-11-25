@@ -77,7 +77,8 @@ export default function Article() {
             <img
               className="m-4 w-10"
               src="/images/icons/chevron-black.png"
-            ></img>
+              alt="Go to parametres"
+            />
           </a>
         </div>
       </section>
@@ -125,7 +126,7 @@ export default function Article() {
       </section>
 
       <section className="h-auto lg:h-screen flex justify-center items-center">
-        <div className="w-full px-4 py-10 w-[90%] lg:w-[50%] h-auto flex flex-col items-center">
+        <div className="w-full px-4 py-10 lg:w-[50%] h-auto flex flex-col items-center">
           <h3 className="font-alkalami text-4xl py-3">car rental</h3>
           <table className="t-auto w-full">
             <tbody>

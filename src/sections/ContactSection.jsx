@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function ContactSection() {
   const {
@@ -66,33 +66,33 @@ export default function ContactSection() {
 
             <div className="w-full flex flec-col justify-center">
               <div className="flex flex-row w-[70%] justify-around pt-2">
-                <a href="#">
+                <a href="https://x.com/?lang=pl">
                   <img
                     src="../images/icons/icons8-x-50.png"
                     className="w-10 object-contain"
                     alt="X icon"
                   ></img>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/">
                   <img
                     src="../images/icons/icons8-ig-50.png"
                     className="w-10 object-contain"
                     alt="Instagram icon"
-                  ></img>
+                  />
                 </a>
-                <a href="#">
+                <a href="https://www.facebook.com/">
                   <img
                     src="../images/icons/icons8-fb-50.png"
                     className="w-10 object-contain"
                     alt="Facebook icon"
-                  ></img>
+                  />
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/">
                   <img
                     src="../images/icons/icons8-yt-50.png"
                     className="w-10 object-contain"
                     alt="YouTube icon"
-                  ></img>
+                  />
                 </a>
               </div>
             </div>
@@ -179,18 +179,17 @@ export default function ContactSection() {
           {/* bottom stuff */}
           <div className="flex flex-col items-center my-5">
             <div className="flex flex-row justify-between gap-7 lg:gap-10">
-              <a href="#">
+              <a href="https://stackoverflow.com/questions/52801051/react-site-warning-the-href-attribute-requires-a-valid-address-provide-a-valid">
                 <p>Terms & Conditions</p>
               </a>
-              <a href="#">
+              <a href="https://stackoverflow.com/questions/52801051/react-site-warning-the-href-attribute-requires-a-valid-address-provide-a-valid">
                 <p>Privacy Policy</p>
               </a>
-              <a href="#">
+              <a href="https://stackoverflow.com/questions/52801051/react-site-warning-the-href-attribute-requires-a-valid-address-provide-a-valid">
                 <p>Cookie Policy</p>
               </a>
             </div>
             <div className="my-5 text-xs">
-              {/*<p>© 2025 Ascent Auto. All rights reserved.</p>*/}
               <p>© 2025 Portfolio project by Emilia Sabo</p>
             </div>
           </div>
@@ -198,8 +197,4 @@ export default function ContactSection() {
       </div>
     </footer>
   );
-}
-
-{
-  /**/
 }
