@@ -819,7 +819,7 @@ const CARS = [
     ],
   },
   {
-    id: "2",
+    id: "21",
     img: "/images/sport_cars_img/challenger.png",
     hdr: "Dodge",
     subt: "Challenger SRT Hellcat",
