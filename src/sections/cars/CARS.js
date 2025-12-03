@@ -818,6 +818,46 @@ const CARS = [
       "€10,000",
     ],
   },
+  {
+    id: "2",
+    img: "/images/sport_cars_img/challenger.png",
+    hdr: "Dodge",
+    subt: "Challenger SRT Hellcat",
+    type: "sport",
+    /* */
+    imgHero: "/images/HeroCars/challenger.png",
+    imgSec: "/images/articleCars/challengerarticle.jpg",
+    /* */
+    desc: "The Dodge Challenger SRT Hellcat embodies pure American muscle. With its supercharged HEMI V8 engine and unmistakably aggressive presence, it delivers raw power, thunderous acceleration, and a bold driving experience rooted in classic performance heritage.",
+    param: [
+      "2023",
+      "717 HP",
+      "315 km/h",
+      "4",
+      "6.2L supercharged HEMI V8",
+      "8-speed automatic",
+    ],
+    equip: [
+      "Supercharged HEMI V8 engine",
+      "adaptive suspension",
+      "Brembo high-performance brakes",
+      "Uconnect 8.4-inch touchscreen",
+      "premium Harman Kardon audio",
+      "SRT drive modes (Sport, Track)",
+      "performance hood with air intakes",
+      "rearview camera",
+      "launch control system",
+    ],
+    prices: [
+      "€1,200",
+      "€1,100/day",
+      "€1,000/day",
+      "€900/day",
+      "€800/day",
+      "€5/km",
+      "€8,000",
+    ],
+  },
 ];
 
 export default CARS;
